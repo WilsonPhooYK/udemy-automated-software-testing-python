@@ -1,0 +1,26 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "editor.tabSize": 4,
+    "python.analysis.useImportHeuristic": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnknownMemberType": "warning",
+        "reportUntypedFunctionDecorator": "warning",
+        "reportUnknownVariableType": "warning",
+        "reportUnknownArgumentType": "warning",
+        "reportMissingTypeStubs": "error",
+    },
+    "python.formatting.provider": "black",
+    "python.analysis.extraPaths": [
+        "C:\\Users\\Kaiser\\.virtualenvs\\udemy-automated-software-testing-python-7MNovFjM\\Lib\\site-packages",
+    ],
+    "python.linting.pylintUseMinimalCheckers": false,
+
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_flask_sqlalchemy, pylint_flask",
+        "--init-hook",
+        "import sys; sys.path.insert(0, '${workspaceFolder}')"
+    ],
+    "python.linting.flake8Enabled": false
+}

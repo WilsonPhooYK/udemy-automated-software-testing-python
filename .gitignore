@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+venv
+.env
+
+.jpg
+.png
+.svg
+.jpeg
+
+data.db
+data.db-journal
