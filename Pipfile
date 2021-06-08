@@ -5,7 +5,15 @@ name = "pypi"
 
 [packages]
 pylint = "*"
+pylint-flask = "*"
+pylint-flask-sqlalchemy = "*"
 python-dotenv = "*"
+flask = "*"
+flask-restful = "*"
+flask-sqlalchemy = "*"
+psycopg2 = "*"
+flask-jwt = "*"
+pytest = "*"
 
 [dev-packages]
 black = "==21.5b1"

@@ -10,7 +10,14 @@
 ],
 ```
 6. Install dependencies: `py -m pipenv install --dev`
-7. Run pipenv: `py -m pipenv shell`
+7. Run pipenv: `py -m pipenv shell`, `py -m pipenv run cmd`
 8. Check pipenv dependencies: `py -m pipenv graph`
 9. Exit pipenv: `exit`
 10. Run black formatting: `black .`
+11. Make sure the bottom intepreter is selected as the pipenv python.
+
+
+# Testing
+1. Change path for the project you are using at `.vscode/settings.json`, under `python.testing.unittestArgs` if using unittest
+2. Set .env path to project folder if using pytest `PYTHONPATH=`
+3. `py -m unittest tests/unit/post_test.py`
