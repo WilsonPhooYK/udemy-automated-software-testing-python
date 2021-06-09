@@ -21,3 +21,11 @@
 1. Change path for the project you are using at `.vscode/settings.json`, under `python.testing.unittestArgs` if using unittest
 2. Set .env path to project folder if using pytest `PYTHONPATH=`
 3. `py -m unittest tests/unit/post_test.py`
+
+# Postman
+1. Create test collection and enviornment and export file without spaces.
+2. Install newman `npm install -g newman`
+3. Make sure app is running and run: `newman run postman/tests.postman_collection.json -e postman/tests.postman_environment.json`
+4. install Make for windows: `choco install make` as administrator.
+5. Run makefile: `make run-tests clear-db=true`
+
