@@ -8,7 +8,8 @@
         "reportUntypedFunctionDecorator": "warning",
         "reportUnknownVariableType": "warning",
         "reportUnknownArgumentType": "warning",
-        "reportMissingTypeStubs": "error",
+        "reportMissingTypeStubs": "warning",
+        "reportWildcardImportFromLibrary": "none"
     },
     "python.formatting.provider": "black",
     "python.analysis.extraPaths": [

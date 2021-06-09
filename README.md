@@ -29,3 +29,12 @@
 4. install Make for windows: `choco install make` as administrator.
 5. Run makefile: `make run-tests clear-db=true`
 
+# Travis
+1. [Travis CI](https://travis-ci.com/) - Sign in with github
+2. Create `.travis.yml` file at root.
+3. Add to readme. At Travis dashbard, click on the badge and select format: markdown and copy on top of the readme file.
+
+# BDD - Behavior Driven Development
+1. Install selenium
+2. [Chrome web driver](https://chromedriver.chromium.org/downloads), put it in the project folder
+3. Run test - `behave tests/acceptance`
